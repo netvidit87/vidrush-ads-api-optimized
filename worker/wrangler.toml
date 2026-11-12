@@ -1,0 +1,11 @@
+name = "vidrush-cdn"
+main = "video-proxy.js"
+compatibility_date = "2026-10-01"
+
+# Contoh route (sesuaikan dengan domain kamu):
+# routes = [
+#   { pattern = "cdn.vidrush-cdn-h.pages.dev/*", zone_name = "pages.dev" }
+# ]
+#
+# Atau deploy sebagai Worker terpisah lalu set Custom Domain di dashboard:
+#   cdn.vidrush-cdn-h.pages.dev  →  Worker "vidrush-cdn"
